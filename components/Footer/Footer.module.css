@@ -1,0 +1,11 @@
+/*small screen */
+.container {
+  background-color: #f72585;
+  padding: 1 rem;
+  color: white;
+  text-align: center;
+}
+
+.footer__title {
+  margin-bottom: 1rem;
+}
