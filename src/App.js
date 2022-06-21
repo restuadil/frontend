@@ -1,15 +1,24 @@
+import './App.css';
+import Header from "./components/Header";
+import Main from './components/Main';
+import Footer from './components/Footer';
 import Home from "./pages/home";
 
 function App() {
   return (
     <div>
+
+      <Header />
+      <Main />
+      <Footer />
+
       <Home/>
+
     </div>
   );
 };
 
 export default App;
-
 import { Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./components/GlobalStyle";
@@ -41,4 +50,6 @@ function App() {
   );
 }
 export default App;
+export default App;
+
 
