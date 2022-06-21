@@ -1,3 +1,15 @@
+import Home from "./pages/home";
+
+function App() {
+  return (
+    <div>
+      <Home/>
+    </div>
+  );
+};
+
+export default App;
+
 import { Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./components/GlobalStyle";
@@ -28,5 +40,5 @@ function App() {
     </ThemeProvider>
   );
 }
-
 export default App;
+
